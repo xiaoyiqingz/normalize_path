@@ -202,6 +202,6 @@ TEST(Normalize_Path)
 
 TEST(Normalize_Path2)
 {
-	CHECK_EQUAL(path_ret(_T("符:\\路径1\\路径2\\路径3"),
-		_T("符:\\路径1\\路径2\\路径3\\")), 0);
+	CHECK_EQUAL(path_ret(_T("!:\\路径1\\路径2\\路径3"),
+		_T("!:\\路径1\\路径2\\路径3\\")), 0);
 }

@@ -1,6 +1,7 @@
-dbg
 *.obj
 *.exe
 *.suo
 *.user
+*.opensdf
+Debug
 normalize_path/Debug
