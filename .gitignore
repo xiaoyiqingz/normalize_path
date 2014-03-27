@@ -1,0 +1,6 @@
+dbg
+*.obj
+*.exe
+*.suo
+*.user
+normalize_path/Debug
